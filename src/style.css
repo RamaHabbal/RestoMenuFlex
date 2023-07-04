@@ -14,24 +14,30 @@ margin-top: 4px;
 margin-bottom: 4px;
 display: block;
 font-style: bold;
-
+}
+.head{
+    display: flex;
+    justify-content: center;
 }
 .left{
-    margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* margin-top: 5px;
     margin-left: 100px;
     margin-right: 1000px;
-    margin-bottom: 5px;
+    margin-bottom: 5px; */
 }
 .center{
-    margin-top: 5px;
+    /* margin-top: 5px;
     margin-left: 600px;
     margin-right: 600px;
-    margin-bottom: 5px;
+    margin-bottom: 5px; */
 }
 .right{
-    margin-top: 5px;
+    /* margin-top: 5px;
     margin-left: 1000px;
-    margin-right: 100px;
+    margin-right: 100px; */
 }
 .img{
 width: 105px;
