@@ -41,8 +41,13 @@ text-align: center;
     width: 105px;
     
 }
-footer{
-    text-align: center;
-    box-sizing: border-box;
-    margin-top: 1300px;
+li{
+    list-style: none;
+}
+footer {
+    display: flex;
+    align-items: flex-end;
+    /* box-sizing: border-box; */
+    /* margin-top: 1300px; */
+   
 }
