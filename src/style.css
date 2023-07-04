@@ -1,8 +1,8 @@
-*{
+/* *{
     display: block;
     box-sizing: border-box;
 
-}
+} */
 span{
 text-align: center;
 box-sizing: border-box;
@@ -12,8 +12,12 @@ border-radius: 5px;
 margin: 0 auto;
 margin-top: 4px;
 margin-bottom: 4px;
-display: block;
+display: flex;
 font-style: bold;
+}
+.contaner head{
+    display: flex;
+    /* align-content: space-around; */
 }
 .head{
     display: flex;
@@ -23,18 +27,29 @@ font-style: bold;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    width: 300px;
+    align-items: center;
     /* margin-top: 5px;
     margin-left: 100px;
     margin-right: 1000px;
     margin-bottom: 5px; */
 }
 .center{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
     /* margin-top: 5px;
     margin-left: 600px;
     margin-right: 600px;
     margin-bottom: 5px; */
 }
 .right{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    width: 300px;
+    align-items: center;
     /* margin-top: 5px;
     margin-left: 1000px;
     margin-right: 100px; */
@@ -44,17 +59,16 @@ width: 105px;
 height: 105px;
 border-radius: 5px;
 text-align: center;
-display: block;
 
 }
 .content{
     padding-top: 25px;
     padding-bottom: 25px;
+    width: 105px;
     
 }
 footer{
     text-align: center;
-    display:block;
     box-sizing: border-box;
     margin-top: 1300px;
 }
