@@ -1,8 +1,4 @@
-/* *{
-    display: block;
-    box-sizing: border-box;
 
-} */
 span{
 text-align: center;
 box-sizing: border-box;
@@ -15,45 +11,23 @@ margin-bottom: 4px;
 display: flex;
 font-style: bold;
 }
-.contaner head{
-    display: flex;
-    /* align-content: space-around; */
-}
 .head{
     display: flex;
     justify-content: center;
 }
-.left{
+.container{
     display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    width: 300px;
-    align-items: center;
-    /* margin-top: 5px;
-    margin-left: 100px;
-    margin-right: 1000px;
-    margin-bottom: 5px; */
+    text-align: center;
+    height: 400px;
+    flex-direction: row;
 }
-.center{
+.left,.center,.right{
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 33%; 
     align-items: center;
-    /* margin-top: 5px;
-    margin-left: 600px;
-    margin-right: 600px;
-    margin-bottom: 5px; */
 }
-.right{
-    display: flex;
-    flex-direction: column;
-    flex-grow: 2;
-    width: 300px;
-    align-items: center;
-    /* margin-top: 5px;
-    margin-left: 1000px;
-    margin-right: 100px; */
-}
+
 .img{
 width: 105px;
 height: 105px;
