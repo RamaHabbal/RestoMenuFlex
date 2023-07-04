@@ -1,4 +1,8 @@
-
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 span{
 text-align: center;
 box-sizing: border-box;
@@ -15,11 +19,15 @@ font-style: bold;
     display: flex;
     justify-content: center;
 }
+.head img{
+    max-width: 350px;
+}
 .container{
     display: flex;
     text-align: center;
     height: 400px;
     flex-direction: row;
+    flex: 1;
 }
 .left,.center,.right{
     display: flex;
@@ -46,8 +54,9 @@ li{
 }
 footer {
     display: flex;
-    align-items: flex-end;
-    /* box-sizing: border-box; */
-    /* margin-top: 1300px; */
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgb(234, 229, 229);
+    text-align: center;
    
 }
